@@ -7,6 +7,8 @@ namespace Contracts.UI;
 
 public class ProfileItemDto
 {
+    // This is the PageId of the Page referenced by the ProfileItem and its optional.
+    // Its optional when the ProfileItem is a Group
     public int? PageId { get; set; }
 
     public required string Name { get; set; }

@@ -2,18 +2,16 @@ using System.ComponentModel.DataAnnotations;
 namespace Contracts.UI;
 
 
-public class ProfileDto
+public class RoleCenterDto
 {
 
 
     public required int Id { get; set; }
 
 
-    [Required]
-    public required int RoleCenterId { get; set; }
-
 
     public required string Name { get; set; }
+
 
 
     public string? Caption { get; set; }
@@ -21,9 +19,7 @@ public class ProfileDto
 
 
     [MinLength(1)]
-    public required List<ProfileItemDto> Items { get; set; }
-
-
+    public required List<RoleCenterGroupItemDto> Items { get; set; }
 
 
 

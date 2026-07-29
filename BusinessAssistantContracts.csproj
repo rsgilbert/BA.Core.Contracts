@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <LangVersion>preview</LangVersion>
     <InvariantGlobalization>true</InvariantGlobalization>
-    <PackageId>Contracts</PackageId>
+    <PackageId>BusinessAssistantContracts</PackageId>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>1.0.0</Version>
     <Authors>passioncloud.net</Authors>
