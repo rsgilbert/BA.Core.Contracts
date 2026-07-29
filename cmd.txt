@@ -1,0 +1,10 @@
+// build for release
+dotnet build -c Release
+
+
+// add local folder to nuget package sources
+dotnet nuget add source "D:\NugetPackages" --name LocalPackagessiness 
+
+
+// install package
+dotnet add package Contracts
