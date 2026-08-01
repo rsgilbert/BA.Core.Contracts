@@ -9,8 +9,7 @@ public class ProfileDto
     public required int Id { get; set; }
 
 
-    [Required]
-    public required int RoleCenterId { get; set; }
+      public int? RoleCenterId { get; set; }
 
 
     public required string Name { get; set; }

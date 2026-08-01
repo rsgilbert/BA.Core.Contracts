@@ -19,7 +19,7 @@ public class RoleCenterDto
 
 
     [MinLength(1)]
-    public required List<RoleCenterGroupItemDto> Items { get; set; }
+    public required List<RoleCenterGroupDto> Groups { get; set; }
 
 
 
