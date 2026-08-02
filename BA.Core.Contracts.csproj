@@ -7,9 +7,25 @@
     <LangVersion>preview</LangVersion>
     <InvariantGlobalization>true</InvariantGlobalization>
     <PackageId>BA.Core.Contracts</PackageId>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <!-- Version has been removed. We shall rely on automatic versioning from git tag -->
+    <!-- <Version>1.0.1</Version> -->
     <Authors>passioncloud.net</Authors>
+    <Company>Passioncloud Ltd</Company>
+    <Product>Business Assistant</Product>
+    <Description>Contracts and DTOs used in Business Assistant</Description>
+    <RepositoryUrl>https://github.com/rsgilbert/BA.Core.Contracts</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageTags>erp;business-assistant;ba;framework;assistant</PackageTags>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
   </PropertyGroup>
+
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>
