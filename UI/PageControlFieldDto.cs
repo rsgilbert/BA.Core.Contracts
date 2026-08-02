@@ -16,8 +16,8 @@ public class PageControlFieldDto
     public bool? Visible { get; set; }
 
 
-    public bool Masked { get; set; }
-    
+    public bool? Masked { get; set; }
+
 
     public int DrillDownPageId { get; set; }
 

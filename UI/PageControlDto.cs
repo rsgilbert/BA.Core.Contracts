@@ -23,6 +23,8 @@ public class PageControlDto
 
     public int? SubPageId { get; set; }
 
+    public int? Columns { get;set; }
+
 
     public List<SubPageFilterDto> SubPageFilters { get; set; } = [];
 
