@@ -1,8 +1,8 @@
 
-using Contracts.Enums;
+using BA.Core.Contracts.Enums;
 
 
-namespace Contracts.UI;
+namespace BA.Core.Contracts.UI;
 
 
 

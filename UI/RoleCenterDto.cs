@@ -1,5 +1,5 @@
 using System.ComponentModel.DataAnnotations;
-namespace Contracts.UI;
+namespace BA.Core.Contracts.UI;
 
 
 public class RoleCenterDto

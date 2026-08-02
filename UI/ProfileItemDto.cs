@@ -1,8 +1,8 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
-using Contracts.Enums;
-namespace Contracts.UI;
+using BA.Core.Contracts.Enums;
+namespace BA.Core.Contracts.UI;
 
 
 public class ProfileItemDto

@@ -1,8 +1,8 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
-using Contracts.Enums;
+using BA.Core.Contracts.Enums;
 
-namespace Contracts.UI;
+namespace BA.Core.Contracts.UI;
 
 
 

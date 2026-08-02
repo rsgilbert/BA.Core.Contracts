@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 
 
-namespace Contracts.UI;
+namespace BA.Core.Contracts.UI;
 
 
 

@@ -1,4 +1,4 @@
-namespace Contracts.Http;
+namespace BA.Core.Contracts.Http;
 
 
 public struct ErrorResponse

@@ -1,4 +1,4 @@
-namespace Contracts.Enums;
+namespace BA.Core.Contracts.Enums;
 
 
 public enum PageActionResponseCommand

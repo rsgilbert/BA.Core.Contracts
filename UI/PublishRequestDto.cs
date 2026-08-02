@@ -1,4 +1,4 @@
-namespace Contracts.UI;
+namespace BA.Core.Contracts.UI;
 
 
 public class PublishRequestDto

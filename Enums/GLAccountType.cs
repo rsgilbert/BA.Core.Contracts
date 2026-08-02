@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Contracts.Enums
+namespace BA.Core.Contracts.Enums
 {
     public enum GLAccountType
     {

@@ -3,10 +3,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Reflection;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using Contracts.Enums;
+using BA.Core.Contracts.Enums;
 
 
-namespace Contracts.UI;
+namespace BA.Core.Contracts.UI;
 
 
 
