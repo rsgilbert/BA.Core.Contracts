@@ -1,7 +1,10 @@
+using System.Text.Json.Serialization;
+
 namespace BA.Core.Contracts.Http;
 
 
-public struct ErrorResponse
+public class ErrorResponse
 {
-    public string error { get; set; }
+    [JsonPropertyName("error")]
+    public string? Error { get; set; }
 }
