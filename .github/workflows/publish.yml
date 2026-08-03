@@ -43,8 +43,6 @@ jobs:
           dotnet pack --configuration Release \
             -p:PackageVersion=${{ steps.version.outputs.VERSION }} --no-build --output ./artifacts
 
-      - name: Publish 
-
 
       # Get a short-lived NuGet API key
       - name: NuGet login (OIDC → temp API key)

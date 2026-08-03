@@ -3,8 +3,18 @@ dotnet build -c Release
 
 
 // add local folder to nuget package sources
+// Note: This is nolonger necessary since the package has been published to nuget
 dotnet nuget add source "D:\NugetPackages" --name LocalPackagessiness 
 
 
+
 // install package
-dotnet add package Contracts
+dotnet add package BA.Core.Contracts
+
+
+// create a release 
+git add .
+git commit -m "Release 1.0.0"
+git tag v1.0.0
+git push origin main
+git push origin v1.0.0
