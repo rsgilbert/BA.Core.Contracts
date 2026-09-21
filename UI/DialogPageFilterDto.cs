@@ -12,6 +12,9 @@ public class DialogPageFilterDto
     public DialogFilterType FilterType { get; set; }
 
 
+    /// <summary>
+    /// Field on the current page when FilterType is Field.
+    /// </summary>
     public required string RelatedFieldName { get; set; }
 
 
@@ -23,7 +26,9 @@ public class DialogPageFilterDto
     public string? ConstantValue { get; set; }
 
 
-    // used when FilterType is Field
+    /// <summary>
+    /// Field on the dialog page being filtered.
+    /// </summary>
     public string? FieldName { get; set; }
 
 
