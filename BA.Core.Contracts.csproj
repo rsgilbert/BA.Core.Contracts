@@ -8,8 +8,7 @@
     <InvariantGlobalization>true</InvariantGlobalization>
     <PackageId>BA.Core.Contracts</PackageId>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <!-- Version has been removed. We shall rely on automatic versioning from git tag -->
-    <Version>1.0.3</Version>
+     <Version>1.0.4</Version>
     <Authors>passioncloud.net</Authors>
     <Company>Passioncloud Ltd</Company>
     <Product>Business Assistant</Product>

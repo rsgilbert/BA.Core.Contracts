@@ -29,8 +29,11 @@ public class PageActionDto
 
     public int? DialogPageId { get;set; }
 
+    public int? ReportId { get; set; }
 
     public List<DialogPageFilterDto> DialogPageFilters { get;set; } = [];
+
+    public List<ReportActionFilterDto> ReportFilters { get; set; } = [];
 
     public string? ActionRelativeUrl
     {
