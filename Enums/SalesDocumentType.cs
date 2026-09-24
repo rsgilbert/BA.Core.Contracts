@@ -10,5 +10,7 @@ namespace BA.Core.Contracts.Enums;
 
 
         [Display(Name = "Credit Memo")]
-        CreditMemo
+        CreditMemo,
+        [Display(Name = "Return Order")]
+        ReturnOrder
     }
